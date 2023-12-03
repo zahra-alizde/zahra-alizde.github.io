@@ -1,0 +1,10 @@
+.navbar-brand{
+    position: relative;
+    width: auto;
+    max-width: 240px;
+    display: block;
+    margin: auto;
+    top: 0;
+    float: none;
+    padding: 0;
+}

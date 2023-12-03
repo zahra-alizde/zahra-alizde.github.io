@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green.ir</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" media="(max-width:575px)" href="css/index-xs.css">
+<link rel="stylesheet" media="(min-width:576px) and (max-width:767px)" href="css/index-sm.css">
+<link rel="stylesheet" media="(min-width:768px) and (max-width:991px)" href="css/index-md.css">
+<link rel="stylesheet" media="(min-width:992px) and (max-width:1199px)" href="css/index-lg.css">
+<link rel="stylesheet" media="(min-width:1200px) and (max-width:1199px)" href="css/index-xl.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="/images/logo.svg">
+</head>
+<body>
+
+  <div class="container-fluid mx-0">
+    <!--row1>>navigation-->
+    <div class="row position-relative">
+            <div class="container-fluid position-relative">
+                <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary position-absolute z-2 w-100 navbar-nav-scroll d-md-none px-0">
+              <a class="navbar-brand m-auto position-relative" href="#">
+                <img src="images/brand.svg" width="200px" height="60px" alt="brand" alt="">
+              </a>
+              <div id="searchToggle">
+                <a href="#" class="link-secondary text-decoration-none d-md-none">
+                    <span class="icon-search"></span>
+                </a>
+              </div>
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon border-0"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                  <button type="button" class="btn-close mt-1" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                
+
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active link-secondary" href="#">محصولات</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">نمایندگی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">پورتال</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">محاسبه گر پاور</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">خدمات و پشتیبانی</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">تماس با ما
+                          <span
+                          class="icon-search"></span>
+                        </a>
+                      </li>
+                      
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="navbar-up-sm d-none d-md-block">
+          <nav class="navbar navbar-expand-md bg-body-warning">
+            <div class="container-fluid d-flex align-items-center ps-0 pe-0 mx-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="megabrand d-flex me-1 ms-20px mt-lg-2">
+              <a class="navbar-brand " href="#">
+                <img src="images/brand.svg" width="200px" height="60px" alt="brand" class="d-inline-block align-text-middle" alt="">
+              </a>
+              </div>
+                <ul class="navbar-nav mb-2 mb-md-0 ps-3 pe-16">
+                  <li class="nav-item pe-0">
+                    <a class="nav-link active link-secondary" href="#">محصولات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">نمایندگی</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">پورتال</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">پشتیبانی</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">محاسبه گر پاور</a>
+                  </li>
+                  <li class="nav-item ps-0 ms-0">
+                    <a class="nav-link" href="#">تماس با ما</a>
+                  </li>
+                </ul>
+                <div id="searchToggle">
+                    <a href="#" class="link-secondary text-decoration-none d-xs-inline-block d-md-none align-items-center d-lg-none d-xl-block">
+                        <span class="icon-search"></span>
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </nav>
+          </div>
+    </div>
+    <!--row2>>>carousel-->
+    <div class="row">
+      <div class="col-12 px-0">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/GREEN-GRIFFIN-G1-G4-G7-Gaming-Cases-3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/GREEN-UK-EVO-PSU-Series.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/GREEN-NEW-Keyborads-2022-02 (1).jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/GREEN-NEW-Keyborads-2022-02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/GREEN-UK-EVO-PSU-Series.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      </div>
+      </div>
+      <!--row3>>>other products-->
+      <div class="row">
+        <div class="col-3 px-1 py-1 ps-0 overflow-hidden position-relative">
+          <div class="product-img">
+            <img src="images/pic4.jpg" alt="" class="w-100">
+            <div class="img-tiles"></div>
+          </div>
+        </div>
+        <div class="col-3 px-1 py-1 ps-0 position-relative">
+          <div class="product-img">
+            <img src="images/industrial-sps-01.jpg" alt="" class="w-100">
+            <div class="img-tiles"></div>
+            <div></div>
+          </div>
+        </div>
+        <div class="col-3 px-1 py-1 ps-0 position-relative">
+          <div class="product-img">
+            <img src="images/pic2.jpg" alt="" class="w-100">
+            <a href="#"><div class="img-tiles"></div></a>
+            <div></div>
+          </div>
+          <div></div>
+        </div>
+        <div class="col-3 px-1 py-1 ps-0 position-relative">
+          <div class="product-img">
+            <img src="images/pic3.jpg" alt="" class="w-100">
+            <a href="#"><div class="img-tiles"></div></a>
+            <div></div>
+          </div>
+        </div>
+        <div class="col-3 px-1 pb-1 ps-0 position-relative">
+          <div class="product-img">
+            <img src="images/pic7.jpg" alt="" class="w-100">
+            <a href="#"><div class="img-tiles"></div></a>
+            <div></div>
+          </div>
+        </div>
+        <div class="col-3 px-1 pb-1 ps-0 position-relative">
+          <div class="product-img">
+            <img src="images/server-001.jpg" alt="" class="w-100">
+            <a href="#"><div class="img-tiles"></div></a>
+            <div></div>
+          </div>
+        </div>
+        <div class="col-3 px-1 pb-1 ps-0 position-relative">
+          <div class="product-img">
+            <img src="images/pic5.jpg" alt="" class="w-100">
+            <a href="#"><div class="img-tiles"></div></a>
+            <div></div>
+          </div>
+        </div>
+        <div class="col-3 px-1 pb-1 ps-0 position-relative">
+          <div class="product-img">
+            <img src="images/pic6.jpg" alt="" class="w-100">
+            <a href="#"><div class="img-tiles"></div></a>
+            <div></div>
+          </div>
+        </div>
+        <div class="col-12 px-0">
+         <div class="AiO d-block">
+          <a href="#">
+            <img src="images/AiO.jpg" width="100%" alt="">
+          </a>
+         </div>
+        </div>
+       </div>
+       <!--row4>>>news-->
+       <div class="row">
+        <div class="col-6 px-0">
+          <div>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner my-1">
+                <div class="carousel-item active position-relative">
+                  <img src="images/pic11.jpg" class="d-block w-100" alt="...">
+                  <div class="news-tiles"></div>
+                </div>
+                <div class="carousel-item position-relative">
+                  <img src="images/pic12.jpg" class="d-block w-100" alt="...">
+                  <div class="news-tiles"></div>
+                </div>
+                <div class="carousel-item position-relative">
+                  <img src="images/pic13.jpg" class="d-block w-100" alt="...">
+                  <div class="news-tiles"></div>
+                </div>
+                <div class="carousel-item position-relative">
+                  <img src="images/14.jpg" class="d-block w-100" alt="...">
+                  <div class="news-tiles"></div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 pe-1 ps-0 py-1">
+          <div class="last-news position-relative">
+            <div class="last-news1">
+              <img src="images/pic15.jpg" class="w-100">
+            <div class="news-tile2"></div>
+            </div>
+            <div class="last-news1">
+              <img src="images/pic16.jpg" class="w-100 mt-1">
+            <div class="news-tile2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 pe-1 ps-0 mt-1">
+          <div class="last-news position-relative">
+            <div class="last-news1">
+            <img src="images/17.jpg" class="w-100">
+            <div class="news-tile2"></div>
+            </div>
+            <div><img src="images/news-3.jpg" class="w-100 mt-1">
+              <div class="news-tile2"></div></div>
+        </div>
+       </div>
+    <!--row5>>>social media-->
+    <div class="row m-5">
+      <div class="col-2">
+          <div class="call-us text-center">
+            <h6>تماس با ما</h6>
+            <span>ما با شما هستیم</span>
+          </div>
+      </div>
+      <div class="col-3 text-right">
+        <div class="phonenumber mt-3">
+          <span class="number py-2 px-2 border border-1 border-secondary-subtle rounded-1"><a href="#" class="link-secondary innernumber">34 33 54 78 021</a></span>
+        </div>
+      </div>
+      <div class="col-4">
+        <h6>به گرین بپوندید</h6>
+        <span>اخبار و اطلاع رسانی های ما را در شبکه های اجتماعی دنبال کنید.
+        </span>
+      </div>
+      <div class="col-3">
+        <div class="icons">
+          <ul class="d-flex icons3 mt-3">
+            <li>
+              <a href="#" class="text-decoration-none icons1">
+                <span class="icon-compass"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none icons1">
+                <span class="icon-instagram"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none icons1">
+                <span class="icon-telegram"></span>
+              </a>
+            </li>
+          </ul>
+          </div>
+      </div>
+     </div>
+     <div class="footer bg-secondary-subtle py-5">
+     <div class="row d-flex mx-5 justify-content-center text-secondary">
+      <div class="col-2">
+        <div class="about-1 text-center">
+          <h6 class="pe-3 footer-title">درباره ما</h6>
+          <ul class="title-itm">
+  <li><a href="https://green.ir/about-green/#pageBuilderColumn_65633695">معرفی شرکت</a></li>
+	<li><a href="https://green.ir/about-green/#pageBuilderColumn_65633695">تاریخچه</a></li>
+	<li><a href="https://green.ir/about-green/#pageBuilderRow_01689035">جوایز کسب شده</a></li>
+	<li><a href="https://green.ir/about-green/#pageBuilderRow_62318671">چشم انداز</a></li>
+	<li><a href="https://green.ir/about-green/#pageBuilderRow_48576121">چارت سازمانی</a></li>
+	<li><a href="https://green.ir/about-green/#pageBuilderRow_80902001">شرکای تجاری</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="about-1 text-center">
+          <h6 class="footer-title">خدمات و پشتیبانی
+          </h6>
+          <ul class="title-itm">
+            <li><a href="https://green-guarantee.ir/General" target="_blank">شرایط گارانتی</a></li>
+            <li><a href="https://green.omegaportal.net/SerialCheck.aspx" target="_blank">کنترل سریال (صحت گارانتی)</a></li>
+            <li><a href="https://green.omegaportal.net/CheckServiceForm.aspx" target="_blank">پیگیری سرویس</a></li>
+            <li><a href="https://green-guarantee.ir/complain" target="_blank">ثبت شکایات</a></li>
+            <li><a href="https://green-guarantee.ir/complain/followup" target="_blank">پیگیری شکایات</a></li>
+            <li><a href="https://green-guarantee.ir/agents" target="_blank">نمایندگان خدمات در شهرستان</a></li>
+            <li><a href="https://green.ir/calculator">محاسبه گر توان مصرفی</a></li>
+            <li><a href="https://green.ir/downloads">مرکز دانلود</a></li>
+            <li><a href="https://green.ir/assets/filemanager/userfiles/green/GREEN-FULL-CATALOG.pdf">کاتالوگ محصولات گرین</a></li>
+            <li><a href="https://green.ir/faq">سوالات متداول (FAQ)</a></li>
+            <li><a href="https://forum.green.ir/">انجمن پشتیبانی (Forums)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="about-1 text-center">
+          <h6 class="footer-title">محصولات گرین</h6>
+          <ul class="title-itm">
+            <li><a href="https://green.ir/products/case/brand/cougar">کیس کامپیوتر گیمینگ</a></li>
+            <li><a href="https://green.ir/products/Keyboard/brand/Cougar">کیبورد گیمینگ</a></li>
+            <li><a href="https://green.ir/products/mouse/brand/Cougar">ماوس گیمینگ</a></li>
+            <li><a href="https://green.ir/products/keyboard-mouse/brand/Cougar">کیبورد+ماوس گیمینگ</a></li>
+            <li><a href="https://green.ir/products/case-fan/brand/Cougar">فن کیس</a></li>
+            <li><a href="https://green.ir/products/gaming-chair/brand/cougar">صندلی گیمینگ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="about-1 text-center">
+          <h6 class="footer-title">محصولات ام اس ای</h6>
+          <ul class="title-itm">
+  <li><a href="https://green.ir/products/All-in-One-PC">کامپیوترهای&nbsp;آماده (AIO)</a></li>
+	<li><a href="https://green.ir/products/case/brand/green">کیس کامپیوتر</a></li>
+	<li><a href="https://green.ir/products/power-supply">منبع تغذیه (پاور)</a></li>
+	<li><a href="https://green.ir/products/cooling">کولینگ (خنک کننده)</a></li>
+	<li><a href="https://green.ir/products/keyboard/brand/green">کیبورد</a></li>
+	<li><a href="https://green.ir/products/mouse/brand/green">ماوس</a></li>
+	<li><a href="https://green.ir/products/keyboard-mouse/brand/green">کیبورد+ماوس</a></li>
+	<li><a href="https://green.ir/products/Mouse-pad/brand/green">ماوس پد</a></li>
+	<li><a href="https://green.ir/products/industrial-power-supply">منبع تغذیه صنعتی</a></li>
+	<li><a href="https://green.ir/products/speaker">اسپیکر</a></li>
+	<li><a href="https://green.ir/products/accessories">سایر لوازم جانبی</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="about-1 text-center">
+          <h6 class="footer-title">محصولات توتولینک</h6>
+          <ul class="title-itm">
+            <li><a href="https://green.ir/products/motherboard/brand/msi">مادربورد</a></li>
+            <li><a href="https://green.ir/products/graphics-card">کارت گرافیک</a></li>
+            <li><a href="https://green.ir/products/Keyboard/brand/msi">کیبورد</a></li>
+            <li><a href="https://green.ir/products/Mouse/brand/msi">ماوس</a></li>
+            <li><a href="https://green.ir/products/Mouse-Pad/brand/msi">ماوس پد</a></li>
+            <li><a href="https://green.ir/products/Keyboard-Mouse/brand/msi">کیبورد+ماوس</a></li>
+            <li><a href="https://green.ir/products/HEADSET/brand/msi">هدست گیمینگ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="about-1 text-center">
+          <h6 class="footer-title">محصولات بنکیو</h6>
+          <ul class="title-itm">
+            <li><a href="https://green.ir/products/ADSL-Modem/brand/totolink">مودم ADSL</a></li>
+	<li><a href="https://green.ir/products/wireless-router/brand/totolink">روتر بی سیم</a></li>
+	<li><a href="https://green.ir/products/network-adapter/brand/totolink">کارت شبکه (LAN)</a></li>
+	<li><a href="https://green.ir/products/Wireless-PCI-E-Adapter/brand/totolink">کارت شبکه بی سیم (Wi-Fi)</a></li>
+	<li><a href="https://green.ir/products/Wireless-USB-Adapter/brand/totolink">دانگل شبکه USB</a></li>
+	<li><a href="https://green.ir/products/Range-Extender/brand/totolink">تقویت کننده Wi-Fi</a></li>
+	<li><a href="https://green.ir/products/Powerline-Adapter/brand/totolink">آداپتور پاورلاین</a></li>
+	<li><a href="https://green.ir/products/Ceiling-Mount-AP/brand/totolink">اکسس پوینت سقفی</a></li>
+	<li><a href="https://green.ir/products/Switch/brand/totolink">سوییچ شبکه</a></li>
+	<li><a href="https://green.ir/products/WiFi-Antenna/brand/totolink">آنتن Wi-Fi</a></li>
+          </ul>
+        </div>
+      </div>
+     </div>
+    </div>
+    <div class="up-to-top">
+      <a href="#" class="link-light text-decoration-none">
+        <span class="icon-arrow-up"></span>
+      </a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
